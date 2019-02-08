@@ -1,0 +1,57 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Calculator</title>
+<style>
+
+#main {
+  width: 300px; 
+  margin-left: 80px;
+  margin-top: 40px;
+  border: 3px solid grey;
+  border-radius: 10px;
+  padding: 16px 10px 10px 10px;
+}
+
+#display {
+  border: 2px solid black;
+  height: 30px;
+  border-radius: 5px;
+  text-align: right;
+  padding: 10px 12px 8px 0px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+button {
+  font-size: 20px;
+  font-weight: bold;
+  width: 70px;
+  height: 50px;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<script src="calculator.js"></script>
+</head>
+<body>
+<div id="main">
+<div id="display">0</div>
+<table>
+<tr> <td><button id="01">1</button></td> <td><button id="02">2</button></td> <td><button id="03">3</button></td> <td><button id="04">4</button></td> </tr>
+<tr> <td><button id="05">5</button></td> <td><button id="06">6</button></td> <td><button id="07">7</button></td> <td><button id="08">8</button></td> </tr>
+<tr> <td><button id="09">9</button></td> <td><button id="00">0</button></td> <td><button id="ce">ce</button></td> <td><button id="result">=</button></td> </tr>
+<tr> <td><button id="plus">+</button></td> <td><button id="minus">-</button></td> <td><button id="multiply">*</button></td> <td><button id="split">/</button></td> </tr>
+</table>
+</div>
+</body>
+</html>
